@@ -1,4 +1,5 @@
-const SHOP_DATA = [{
+const SHOP_DATA = {
+  lands: {
     id: 1,
     title: 'Lands',
     routeName: 'lands',
@@ -58,7 +59,7 @@ const SHOP_DATA = [{
       }
     ]
   },
-  {
+  creatures: {
     id: 2,
     title: 'Creatures',
     routeName: 'creatures',
@@ -112,7 +113,7 @@ const SHOP_DATA = [{
       }
     ]
   },
-  {
+  sorceries: {
     id: 3,
     title: 'Sorceries',
     routeName: 'sorceries',
@@ -148,7 +149,7 @@ const SHOP_DATA = [{
       }
     ]
   },
-  {
+  instants: {
     id: 4,
     title: 'Instants',
     routeName: 'instants',
@@ -196,7 +197,7 @@ const SHOP_DATA = [{
       }
     ]
   },
-  {
+  enchantments: {
     id: 5,
     title: 'Enchantments',
     routeName: 'enchantments',
@@ -238,6 +239,7 @@ const SHOP_DATA = [{
       }
     ]
   }
-]
+}
+
 
 export default SHOP_DATA;

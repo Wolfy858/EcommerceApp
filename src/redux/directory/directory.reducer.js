@@ -3,29 +3,29 @@ const INITIAL_STATE = {
     title: 'lands',
     imageUrl: 'https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=83288&type=card',
     id: 1,
-    linkUrl: 'lands'
+    linkUrl: 'shop/lands'
   },{
     title: 'creatures',
     imageUrl: 'https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=743&type=card',
     id: 2,
-    linkUrl: ''
+    linkUrl: 'shop/creatures'
   },{
     title: 'sorceries',
     imageUrl: 'https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=11581&type=card',
     id: 3,
-    linkUrl: ''
+    linkUrl: 'shop/sorceries'
   },{
     title: 'instants',
     imageUrl: 'https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=11214&type=card',
     size: 'large',
     id: 4,
-    linkUrl: ''
+    linkUrl: 'shop/instants'
   },{
     title: 'enchantments',
     imageUrl: 'https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=442111&type=card',
     size: 'large',
     id: 5,
-    linkUrl: ''
+    linkUrl: 'shop/enchantments'
   },]
 }
 
